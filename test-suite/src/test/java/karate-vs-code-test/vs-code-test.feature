@@ -7,4 +7,4 @@ Feature: Testing Karate with VS Code
     Given path 'v1', 'test'
     And request payload
     When method post
-    Then status 200
+    Then status 404
