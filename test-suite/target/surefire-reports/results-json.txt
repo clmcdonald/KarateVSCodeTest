@@ -1,0 +1,1 @@
+{"features":1,"ignored":0,"efficiency":0.006308163492063493,"failures":{"src.test.java.karate-vs-code-test.vs-code-test":"-unknown-:3 - javascript evaluation failed: serviceUrl, ReferenceError: \"serviceUrl\" is not defined in <eval> at line number 1"},"totalTime":3.974143,"threads":1,"scenarios":1,"failed":1,"passed":0,"version":"0.9.5","elapsedTime":630.0}

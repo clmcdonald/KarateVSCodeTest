@@ -1,0 +1,15 @@
+<testsuite failures="1" name="src/test/java/karate-vs-code-test/vs-code-test.feature" skipped="0" tests="1" time="0.003974">
+  <testcase classname="src.test.java.karate-vs-code-test.vs-code-test" name="Test that it gets Karate Config properly" time="0.003974">
+    <failure message="-unknown-:3 - javascript evaluation failed: serviceUrl, ReferenceError: &quot;serviceUrl&quot; is not defined in &lt;eval&gt; at line number 1">* url serviceUrl .......................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: -unknown-:3 - javascript evaluation failed: serviceUrl, ReferenceError: "serviceUrl" is not defined in &lt;eval&gt; at line number 1
+	at ✽.* url serviceUrl (-unknown-:3)
+
+* json payload = read('classpath:payload.json') ........................... skipped
+Given path 'v1', 'test' ................................................... skipped
+And request payload ....................................................... skipped
+When method post .......................................................... skipped
+Then status 200 ........................................................... skipped</failure>
+  </testcase>
+</testsuite>

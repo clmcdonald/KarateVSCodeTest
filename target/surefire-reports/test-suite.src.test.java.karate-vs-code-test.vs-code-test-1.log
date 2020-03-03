@@ -1,0 +1,22 @@
+11:38:31.640 karate.env system property was: null 
+11:38:31.939 request:
+1 > POST http://localhost:24564/test/v1/test
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 23
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:24564
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_211)
+{"test":"test payload"}
+
+11:38:31.965 response time in milliseconds: 24.84
+1 < 404
+1 < Content-Language: en
+1 < Content-Length: 975
+1 < Content-Type: text/html;charset=utf-8
+1 < Date: Tue, 03 Mar 2020 17:38:31 GMT
+1 < Server: Apache-Coyote/1.1
+<html><head><title>Apache Tomcat/7.0.59 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 404 - /test/v1/test</h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u>/test/v1/test</u></p><p><b>description</b> <u>The requested resource is not available.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.59</h3></body></html>
+
+11:38:32.022 xml parsing failed, response data type set to string: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 964; The element type "HR" must be terminated by the matching end-tag "</HR>".
+11:38:32.023 status code was: 404, expected: 200, response time: 25, url: http://localhost:24564/test/v1/test, response: <html><head><title>Apache Tomcat/7.0.59 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 404 - /test/v1/test</h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u>/test/v1/test</u></p><p><b>description</b> <u>The requested resource is not available.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/7.0.59</h3></body></html>
